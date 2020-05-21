@@ -36,7 +36,7 @@ while True:
         time.sleep(5)
 
 
-sftp_client = SSHConnector().get_sftp_client()
+sftp_client = SSHConnector().get_sftp_client(ssh_connector)
 sftp_manager = SFTPManager(sftp_client, ssh_connector)
 email_extractor = EmailExtractor()
 exim_logs_manager = EximLogsManager(sftp_manager)

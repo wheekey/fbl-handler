@@ -20,6 +20,5 @@ class SSHConnector():
 
         return ssh
 
-    def get_sftp_client(self) -> paramiko.SFTPClient:
-        ssh_connection = self.create_connection()
-        return ssh_connection.open_sftp()
+    def get_sftp_client(self, ssh: paramiko.SSHClient) -> paramiko.SFTPClient:
+        return ssh.open_sftp()
