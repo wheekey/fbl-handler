@@ -1,0 +1,83 @@
+Return-path: <fbl@bounce.mailstream.senderscore.net>
+Envelope-to: abuse@togas-shop.ru
+Delivery-date: Wed, 20 May 2020 07:34:55 +0200
+Received: from mrd.us-east-1a.returnpath.net ([54.84.12.226])
+        by CentOS-65-64-minimal with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+        (Exim 4.92)
+        (envelope-from <fbl@bounce.mailstream.senderscore.net>)
+        id 1jbHNW-0000El-UP
+        for abuse@togas-shop.ru; Wed, 20 May 2020 07:34:55 +0200
+Received: (Haraka outbound); Wed, 20 May 2020 05:34:49 +0000
+Received: from localhost ([10.252.37.171])
+        by mrd.us-east-1a.returnpath.net (Haraka/2.8.21) with ESMTP id 6AD3506E-03DD-415D-A36B-BDAB50465DAF.1
+        envelope-from <fbl@bounce.mailstream.senderscore.net>;
+        Wed, 20 May 2020 05:34:49 +0000
+Message-Id: <01E8R97G7TREVKV98CZ9ZBDV4G.fbl@bounce.mailstream.senderscore.net>
+To: abuse@togas-shop.ru
+Subject: Yandex Abuse Report
+From: Yandex FBL Service <feedbackloop@yandexfbl.senderscore.net>
+Date: Wed, 20 May 2020 05:34:49 +0000
+Mime-Version: 1.0
+X-Rp-Fbl: type=arf; subscriptionID=96781
+Content-Type: multipart/report; report-type=feedback-report;
+ boundary=d4155cf2843d7b17fbf8ed228c7471d839fdfe5ea32c763525ae2ab15daf
+DKIM-Signature: v=1;a=rsa-sha256;bh=wHoqMxashfwznAXR1dFbGFauVeN30uBFUUR9nLgtwyc=;c=relaxed/simple;d=senderscore.net;h=from:to:subject;s=081107;b=iXKuiMYkLI8tt6HGHjTIJoU9Q0UBdtS6v/aOSqWt49mDPjWE+vQch1MWoK6zQd8TfXNVgDP1P2ESwsBr670efS0qtTDfx0p/Qcj2hbIA/9+UezzmCoNeFlGHbg329V8AGnmF+emmH8+sV8FrbIJ/Bq1rCmvy0WC/QY+BRtaHxIo=
+
+--d4155cf2843d7b17fbf8ed228c7471d839fdfe5ea32c763525ae2ab15daf
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+This is a Yandex Abuse Report for an email message received from domain tog=
+as-shop.ru, IP 78.46.251.116, on Tue, 19 May 2020 02:01:53 +0000.
+
+--d4155cf2843d7b17fbf8ed228c7471d839fdfe5ea32c763525ae2ab15daf
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-Type: message/feedback-report
+
+Subscription-Link: https://fbl.returnpath.net/manage/subscriptions/96781
+Original-Rcpt-To: ca2b45ef141c63af66829a2f346c832b@email.xxx
+Original-Mail-From: bounce@togas-shop.ru
+Abuse-Type: complaint
+Arrival-Date: Tue, 19 May 2020 02:01:53 +0000
+Reported-Domain: togas-shop.ru
+Source-Ip: 78.46.251.116
+Source: Yandex
+Feedback-Type: abuse
+User-Agent: ReturnPathFBL/2.0
+Version: 1
+
+--d4155cf2843d7b17fbf8ed228c7471d839fdfe5ea32c763525ae2ab15daf
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-Type: message/rfc822
+
+Received: from <ca2b45ef141c63af66829a2f346c832b> (localhost [127.0.0.1])
+ by <ca2b45ef141c63af66829a2f346c832b> with LMTP id bCTPENKoYK-iRb74Y33
+ for <<ca2b45ef141c63af66829a2f346c832b@email.xxx>>; Tue, 19 May 2020 20:37:18 +0300
+Received: from mail.togas-shop.ru (mail.togas-shop.ru [78.46.251.116])
+ by <ca2b45ef141c63af66829a2f346c832b> (mxfront/Yandex) with ESMTPS id bA0qK0Zi51-bIQuI0q9;
+ Tue, 19 May 2020 20:37:18 +0300
+ (using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+ (Client certificate not present)
+Return-Path: bounce@togas-shop.ru
+Authentication-Results: <ca2b45ef141c63af66829a2f346c832b>; spf=pass (<ca2b45ef141c63af66829a2f346c832b>: domain of togas-shop.ru
+ designates 78.46.251.116 as permitted sender, rule=[a])
+ smtp.mail=bounce@togas-shop.ru; dkim=pass header.i=@togas-shop.ru
+Received: from mail.togas-shop.ru ([78.46.251.116] helo=togas-shop.ru)
+ by CentOS-65-64-minimal with esmtpa (Exim 4.92)
+ (envelope-from <bounce@togas-shop.ru>) id 1jb6B3-0004MN-Dq
+ for <ca2b45ef141c63af66829a2f346c832b@email.xxx>; Tue, 19 May 2020 19:37:17 +0200
+To: <ca2b45ef141c63af66829a2f346c832b@email.xxx>
+Subject: =?utf-8?q?=D0=94=D0=BE_-79%_=D0=BD=D0=B0_=D1=82=D0=BE=D0=B2=D0=B0=D1=80?= =?utf-8?q?=D1=8B_=D0=B4=D0=BB=D1=8F_=D0=B4=D0=B0=D1=87=D0=B8._=D0=A1?= =?utf-8?q?=D0=BE=D0=B1=D0=B8=D1=80=D0=B0=D0=B5=D1=82=D0=B5=D1=81=D1=8C_?= =?utf-8?q?=D0=BD=D0=B0_=D0=B4=D0=B0=D1=87=D1=83_-_=D0=BF=D1=80=D0=B8?= =?utf-8?q?=D0=BA=D1=83=D0=BF=D0=B8=D1=82=D0=B5_=D1=82=D0=B5=D0=BA=D1=81?= =?utf-8?q?=D1=82=D0=B8=D0=BB=D1=8C_=D0=B2_=D0=BF=D1=80=D0=B8=D0=B4=D0=B0?= =?utf-8?q?=D1=87=D1=83!?=
+Date: Tue, 19 May 2020 02:01:53 +0000
+From: "=?UTF-8?B?0JTQvtC80LDRiNC90LjQuSDQotC10LrRgdGC0LjQu9GM?="
+ <info@togas-shop.ru>
+Reply-To: info@togas-shop.ru
+MIME-Version: 1.0
+Content-Type: multipart/alternative; charset="UTF-8";
+ boundary="b1_0c9601a3e608db547cf6600bccfb4ab7"
+Content-Transfer-Encoding: 8bit
+
+
+--d4155cf2843d7b17fbf8ed228c7471d839fdfe5ea32c763525ae2ab15daf--
