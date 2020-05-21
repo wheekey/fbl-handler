@@ -60,7 +60,7 @@ for email_content in email_contents:
                     subscriber_updater.unsubscribe_client(email)
                     message = Message(message_id=message_id, email=email, is_unsubscribed=True)
                     message.save()
-                    logger.debug("Message %s with email %s unsubscribed", message_id, email)
+                    logger.debug("Message %s with email %s unsubscribedd", message_id, email)
     except Exception as ex:
         logger.debug(ex)
         logger.debug(traceback.print_exc())
