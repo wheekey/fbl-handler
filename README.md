@@ -19,16 +19,37 @@
 https://hub.docker.com/_/python/
 ### You can then build and run the Docker image:
 
+#Deployment
+```
+# Заходим в докер и запускаем миграцию
+
+docker run -v "$(pwd):/usr/src/app" -it fbl-handler bash
+python manage.py migrate
+
+```
+
 #Запуск
 ```
 $ docker build -t fbl-handler .
-$ docker run -it --rm fbl-handler
+$ docker run -it -v "$(pwd):/usr/src/app" fbl-handler
 ```
+
+# Запуск по крону
+```
+0 * * * * docker run -it -v "$(pwd):/usr/src/app" fbl-handler > /home/admin/projects/fbl-handler/debug.log 2>&1
+```
+
 ### Run script from docker
 ```
 docker run -it -w /usr/src/app -v $(pwd):/usr/src/app fbl-handler bash
 
 docker run -it -v "$(pwd)/:/app/target_dir" fbl-handler bash
+
+// https://stackoverflow.com/questions/47542956/how-to-synchronize-host-folder-in-container-folder-with-docker?answertab=votes#tab-top
+docker run -v <host_dir>:<container_dir> -other options imagename
+
+//
+docker run -v "$(pwd):/usr/src/app" -it fbl-handler bash
 
 // С обновлением директории
 docker run -it --mount "type=bind,source=$(pwd),target=/app" fbl-handler bash
@@ -38,7 +59,7 @@ For many simple, single file projects, you may find it inconvenient to write a c
 In such cases, you can run a Python script by using the Python Docker image directly:
 
 ```
-docker run -it --rm --name my-running-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp python:3 python your-daemon-or-script.py
+docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app python:3 python index.py
 ```
 
 https://docs.djangoproject.com/en/3.0/intro/tutorial01/
