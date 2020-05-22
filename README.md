@@ -36,7 +36,7 @@ $ docker run -it -v "$(pwd):/usr/src/app" fbl-handler
 
 # Запуск по крону
 ```
-0 * * * * docker run -it -v "$(pwd):/usr/src/app" fbl-handler > /home/admin/projects/fbl-handler/debug.log 2>&1
+0 * * * * docker run  -v "/home/admin/projects/fbl-handler:/usr/src/app" fbl-handler > /home/admin/projects/fbl-handler/debug.log 2>&1
 ```
 
 ### Run script from docker
