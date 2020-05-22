@@ -10,3 +10,11 @@ class EmailExtractor():
             return ''
 
         return groups[0]
+
+    def mail_ru_extract_from_message_body(self, message_body: str):
+        matches = re.findall("\sTo:\s(.+?)\s", message_body)
+
+        if matches is None:
+            return ''
+
+        return matches[len(matches)-1]

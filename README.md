@@ -30,13 +30,14 @@ python manage.py migrate
 
 #Запуск
 ```
-$ docker build -t fbl-handler .
+$ docker build -t fbl-handler-pdlx .
 $ docker run -it -v "$(pwd):/usr/src/app" fbl-handler
 ```
 
 # Запуск по крону
 ```
 0 * * * * docker run  -v "/home/admin/projects/fbl-handler:/usr/src/app" fbl-handler > /home/admin/projects/fbl-handler/debug.log 2>&1
+0 * * * * docker run  -v "/home/admin/projects/fbl-handler-pdlx:/usr/src/app" fbl-handler-pdlx > /home/admin/projects/fbl-handler-pdlx/debug.log 2>&1
 ```
 
 ### Run script from docker
