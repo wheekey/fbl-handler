@@ -1,0 +1,311 @@
+Return-path: <noreply@corp.mail.ru>
+Envelope-to: zhalobi@postel-deluxe.ru
+Delivery-date: Fri, 22 May 2020 15:35:05 +0300
+Received: from abusef1.i.mail.ru ([185.5.137.4])
+        by mail.postel-deluxe.ru with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+        (Exim 4.92)
+        (envelope-from <noreply@corp.mail.ru>)
+        id 1jc6pB-00077t-Vc
+        for zhalobi@postel-deluxe.ru; Fri, 22 May 2020 15:30:54 +0300
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=corp.mail.ru; s=mail;
+        h=Content-Type:MIME-Version:Date:Subject:To:From:Message-ID; bh=WMIWAwEa5EZJ6Zzull19CDuFbDgp2P2HrkKQ0KOlqmY=;
+        b=mpnUH0Un4TXStj2osaTOPiU5iLUoex+/+dvnUIV44T1K5JJMQUf2eh21FY3KR9TlwrACIl4/DnwQWpJ3HieCwz65MezNk4brpdBZw8GL6SZSuD+44FyMuko4kMhaNtMLkZCCWkp6wZ3RKXrZF5KSPeTtqZJ9jhE5NuK2OFcjdgA=;
+Received: from [0.0.0.0] (ident=root)
+        by abusef1.i.mail.ru with local (envelope-from <noreply@corp.mail.ru>)
+        id 1jc6pB-0008VN-Em
+        for zhalobi@postel-deluxe.ru; Fri, 22 May 2020 15:30:53 +0300
+Message-ID: <1590150653.932301274@abusef1.i.mail.ru>
+From: noreply@corp.mail.ru
+To: zhalobi@postel-deluxe.ru
+Subject: Mail.ru abuse report (Feedback Loop)
+Date: Fri, 22 May 2020 15:30:53 +0300
+X-Mru-AbusefHost: abusef1.i.mail.ru
+MIME-Version: 1.0
+Content-Type: multipart/report; boundary="-----rH5EeEHbIM1PTGPC-1590150653"; report-type="feedback-report"
+
+
+-------rH5EeEHbIM1PTGPC-1590150653
+MIME-Version: 1.0
+Content-Type: text/plain
+
+This is an email abuse report for an email message received from
+-------rH5EeEHbIM1PTGPC-1590150653
+MIME-Version: 1.0
+Content-Type: message/feedback-report
+
+feedback-type: abuse
+User-Agent: Email::ARF::Report/0.006
+Version: 0.1
+
+-------rH5EeEHbIM1PTGPC-1590150653
+MIME-Version: 1.0
+Content-Type: message/rfc822
+
+Delivered-To: *****
+Return-path: <bounce@postel-deluxe.ru>
+Authentication-Results: mxs.mail.ru; spf=pass (mx161.mail.ru: domain of postel-deluxe.ru designates 85.25.210.31 as permitted sender) smtp.mailfrom=bounce@postel-deluxe.ru smtp.helo=mail.postel-deluxe.ru;
+         dkim=pass header.d=postel-deluxe.ru
+Received-SPF: pass (mx161.mail.ru: domain of postel-deluxe.ru designates 85.25.210.31 as permitted sender) client-ip=85.25.210.31; envelope-from=bounce@postel-deluxe.ru; helo=mail.postel-deluxe.ru;
+Received: from mail.postel-deluxe.ru ([85.25.210.31]:34508)
+        by mx161.mail.ru with esmtp (envelope-from <bounce@postel-deluxe.ru>)
+        id 1jc4Iv-0000aN-T3
+        for sokolusha80@mail.ru; Fri, 22 May 2020 12:49:26 +0300
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+        d=postel-deluxe.ru; s=mail; h=Content-Transfer-Encoding:Content-Type:
+        List-Unsubscribe:MIME-Version:Reply-To:From:Date:Message-ID:Subject:To:Sender
+        :Cc:Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+        Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+        List-Help:List-Subscribe:List-Post:List-Owner:List-Archive;
+        bh=BdCk3Q/8upznxuZwgm/um2rABNSRMl3jgxiDXI3mZzA=; b=hOwX/LXMCaFY+thyCjIt6zr2Bk
+        0ZSHXBzZEv8LJDrOwKHbcD2ukG2ul7B5HPLW3ulqcIyA3UdLNYg1mSuVTYi47cj46rwkZEE0zKdrr
+        M+tYXXapUMs5SnYIa4mf8yuz8OPPSixSPV6V2BsFqAFbKGicZMmu3v5tU1spT0QbbWMI=;
+Received: from [127.0.0.1] (helo=postel-deluxe.ru)
+        by mail.postel-deluxe.ru with esmtpa (Exim 4.92)
+        (envelope-from <bounce@postel-deluxe.ru>)
+        id 1jc3jZ-0008Of-Af
+        for sokolusha80@mail.ru; Fri, 22 May 2020 12:12:53 +0300
+To: sokolusha80@mail.ru
+Subject: =?UTF-8?B?0JTQviAtOTElISDQpNC40L3QsNC7INC30LLQtdC30LTQvdGL0YUg0YHQutC40LTQvtC6ISDQo9GB0L/QtdC50YLQtSDQv9C+0LnQvNCw0YLRjCDRgtC+0LLQsNGAINC/0L4g0LrQvtGB0LzQuNGH0LXRgdC60L7QuSDRhtC10L3QtSE=?=
+Message-ID: <0bf153431c1587e4bf0b37c4e93a0942@postel-deluxe.ru>
+Date: Fri, 22 May 2020 03:02:49 +0000
+From: "=?UTF-8?B?0JTQvtC80LDRiNC90LjQuSDQotC10LrRgdGC0LjQu9GM?=" <news@postel-deluxe.ru>
+Reply-To: news@postel-deluxe.ru
+MIME-Version: 1.0
+X-Mailer-LID: 16,16,16,16,16,16,16
+List-Unsubscribe: <http://postel-deluxe.ru/emark/unsubscribe.php?M=14117098&C=a553295a7f9f6696059b7c225dd29106&L=16&N=9150>
+X-Mailer-RecptId: 14117098
+X-Mailer-SID: 9150
+X-Mailer-Sent-By: 2
+Content-Type: multipart/alternative; charset="UTF-8"; boundary="b1_d32f68a479bf8b7a2da86ebddc751aa8"
+Content-Transfer-Encoding: 8bit
+X-7564579A: 646B95376F6C166E
+X-77F55803: 102645BB799D37ABE499054761329B87D065BFE6A7F09A9CEB01896137B57D50751D689F5EC382A979029C89E3E9D5D70C51797914783D6D
+X-D57D3AED: 3ZO7eAau8CL7WIMRKs4sN3D3tLDjz0dLbV79QFUyzQ2Ujvy7cMT6pYYqY16iZVKkSc3dCLJ7zSJH7+u4VD18S7Vl4ZUrpaVfd2+vE6kuoey4m4VkSEu530nj6fImhcD4MUrOEAnl0W826KZ9Q+tr59cQFxbtK52nrsBwskjMlLbwTDbZjg0ktGWyd3ZwR5M2G0g+gzS0PKeJDOBrL//rLYldd2avYxhfs9M+DuXTOBSH/SnnzuO3dUdTEydar/8efXUlVNrQsmzDiA/D1mr6fw==
+X-F696D7D5: U5CuqxmJJmamHeQq7s48rc7Fs48pZRQd6dArjlUbytwVxPUjBhwRZA==
+X-Mras: OK
+X-Mailru-Intl-Transport: d,41d7dec
+
+--b1_d32f68a479bf8b7a2da86ebddc751aa8
+Content-Type: text/plain; format=flowed; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Your email client cannot read this email.
+To view it online, please go here:
+http://postel-deluxe.ru/emark/display.php?M=14117098&C=a553295a7f9f6696059b7c225dd29106&S=9150&L=16&N=7886
+
+
+To stop receiving these
+emails:http://postel-deluxe.ru/emark/unsubscribe.php?M=14117098&C=a553295a7f9f6696059b7c225dd29106&L=16&N=9150
+
+--b1_d32f68a479bf8b7a2da86ebddc751aa8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+    <html>
+    <head><meta charset="utf-8"></head>
+
+    <body>
+<!-- space -->
+style="font-size: 13px;"> <span style="font-family: Verdana, Tahoma, Arial;
+font-size: 13px; color: #626262; line-height: 15px;"><span
+style="font-family: Verdana, Tahoma, Arial; font-size: 13px; color:
+#ff256c; line-height: 15px;"> <b>Более 150 городов
+России!</b></span> Подробные условия доставки
+в</span></font><font style="font-size: 13px;"><span style="font-family:
+Verdana, Tahoma, Arial; font-size: 13px; color: #626262; line-height:
+15px;"> ваш регион</span></font><font face="Verdana, Tahoma,
+Arial" size="2" color="#626262" style="font-size: 13px;"><span
+style="font-family: Verdana, Tahoma, Arial; font-size: 13px; color:
+#626262; line-height: 15px;"> <a
+href="http://postel-deluxe.ru/emark/link.php?M=14117098&N=9150&hash=0dac664f2619242082a7ae56dec5b00c&L=70948&F=H"
+title="Информация о доставке" target="_blank"
+style="color: #72a700; font-size: 13px; line-height: 15px; font-family:
+Verdana, Tahoma, Arial;">узнайте</a> на нашем сайте
+</span></font></td>
+<td width="6px">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><!--Footer-->
+<table border="0" cellspacing="0" cellpadding="0" style="margin: 0px;
+padding: 0px; width: 100%;" bgcolor="#6d6d6b">
+<tbody>
+<tr>
+<td width="11" height="48">&nbsp;</td>
+<td width="217" align="left" style="line-height: 13px;"><font
+face="Verdana, Tahoma, Arial" size="2" color="#ffffff" style="font-size:
+11px;"><span style="font-family: Verdana, Tahoma, Arial; font-size: 11px;
+color: #ffffff; line-height: 13px;"><b>Отдел по работе с
+клиентами:<br /><i>(режим работы
+24/7)</i></b></span></font></td>
+<td width="36" align="left"><img
+src="https://postel-deluxe.ru/media/wysiwyg/mail/phone.gif" width="26"
+height="26" alt="Распродажа" /></td>
+<td width="135" align="left" style="line-height: 13px;"><font
+face="Verdana, Tahoma, Arial" size="2" color="#ffffff" style="font-size:
+10px;"><span style="font-family: Verdana, Tahoma, Arial; font-size: 10px;
+color: #ffffff; line-height: 13px;"><b><a style="color: #ffffff; font-size:
+10px; line-height: 13px; font-family: Verdana, Tahoma, Arial;
+text-decoration: none;">+7 (495) 627-79-79</a><br /><a style="color:
+#ffffff; font-size: 10px; line-height: 13px; font-family: Verdana, Tahoma,
+Arial; text-decoration: none;">8 (800)
+700-23-99</a></b></span></font></td>
+<td width="39" align="left"><img
+src="https://postel-deluxe.ru/media/wysiwyg/mail/mail.gif" width="28"
+height="28" alt="Распродажа" /></td>
+<td width="139" align="left" style="line-height: 13px;"><font
+face="Verdana, Tahoma, Arial" size="2" color="#ffffff" style="font-size:
+11px;"><span style="font-family: Verdana, Tahoma, Arial; font-size: 10px;
+color: #ffffff; line-height: 13px;"><b>эл. почта:<br /> <a
+href="mailto:info@postel-delux.ru" style="color: #ffffff; font-size: 10px;
+line-height: 13px; font-family: Verdana, Tahoma, Arial; text-decoration:
+none;" title="Наши менеджеры ответят на ваши
+вопросы">info@postel-delux.ru</a></b></span></font></td>
+<td width="111"><font face="Verdana, Tahoma, Arial" size="2"
+color="#ffffff" style="font-size: 11px;"><span style="font-family: Verdana,
+Tahoma, Arial; font-size: 11px; color: #c0d385; line-height: 13px;"><b><a
+href="mailto:info@postel-delux.ru" style="color: #c0d385; font-size: 11px;
+line-height: 13px; font-family: Verdana, Tahoma, Arial;" title="Наши
+менеджеры ответят на ваши
+вопросы">Написать&nbsp;нам&nbsp;&raquo;</a></b></span></font></td>
+<td width="12">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<!--End Footer--></td>
+</tr>
+<tr>
+<td height="30">
+<table border="0" cellspacing="0" cellpadding="0" style="margin: 0px;
+padding: 0px; width: 100%;" align="center">
+<tbody>
+<tr>
+<td height="44" align="center"><font face="Verdana, Tahoma, Arial" size="2"
+color="#626262" style="font-size: 13px;"> <span style="font-family:
+Verdana, Tahoma, Arial; font-size: 13px; color: #ff256c; line-height:
+15px;"> <b>Присоединяйтесь к нам и читайте
+всё самое интересное о домашнем
+уюте!</b></span></font></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" style="margin: 0px;
+padding: 0px; font-size: 11px; width: 100%;">
+<tbody>
+<tr>
+<td width="20%" align="center"><a
+href="http://postel-deluxe.ru/emark/link.php?M=14117098&N=9150&hash=0dac664f2619242082a7ae56dec5b00c&L=50088&F=H"
+target="_blank" style="text-decoration: none; line-height: 13px;"><img
+src="https://postel-deluxe.ru/media/wysiwyg/mail/mail_soc-vk.jpg"
+width="46" height="46" alt="Распродажа" /><br /> <font
+face="Verdana, Tahoma, Arial" size="2" color="#4d4d4d" style="font-size:
+11px;"><span style="font-family: Verdana, Tahoma, Arial; font-size: 11px;
+color: #4d4d4d; line-height: 13px;">Гид для настоящих<br
+/>хозяек</span></font> </a></td>
+<td width="20%" align="center"><a
+href="http://postel-deluxe.ru/emark/link.php?M=14117098&N=9150&hash=0dac664f2619242082a7ae56dec5b00c&L=56179&F=H"
+target="_blank" style="text-decoration: none; line-height: 13px;"><img
+src="https://postel-deluxe.ru/media/wysiwyg/mail/mail_soc-ok.jpg"
+width="46" height="46" alt="Распродажа" /> <br /> <font
+face="Verdana, Tahoma, Arial" size="2" color="#4d4d4d" style="font-size:
+11px;"><span style="font-family: Verdana, Tahoma, Arial; font-size: 11px;
+color: #4d4d4d; line-height: 13px;">Помощник<br />по
+уюту</span></font> </a></td>
+<td width="20%" align="center"><a
+href="http://postel-deluxe.ru/emark/link.php?M=14117098&N=9150&hash=0dac664f2619242082a7ae56dec5b00c&L=64733&F=H"
+target="_blank" style="text-decoration: none; line-height: 13px;"><img
+src="https://postel-deluxe.ru/media/wysiwyg/mail/mail_soc-ig.jpg"
+width="46" height="46" alt="Распродажа" /> <br /> <font
+face="Verdana, Tahoma, Arial" size="2" color="#4d4d4d" style="font-size:
+11px;"><span style="font-family: Verdana, Tahoma, Arial; font-size: 11px;
+color: #4d4d4d; line-height: 13px;">Каталог идей<br />для
+дома</span></font> </a></td>
+<td width="20%" align="center"><a
+href="http://postel-deluxe.ru/emark/link.php?M=14117098&N=9150&hash=0dac664f2619242082a7ae56dec5b00c&L=56178&F=H"
+target="_blank" style="text-decoration: none; line-height: 13px;"><img
+src="https://postel-deluxe.ru/media/wysiwyg/mail/mail_soc-fb.jpg"
+width="46" height="46" alt="Распродажа" /> <br /> <font
+face="Verdana, Tahoma, Arial" size="2" color="#4d4d4d" style="font-size:
+11px;"><span style="font-family: Verdana, Tahoma, Arial; font-size: 11px;
+color: #4d4d4d; line-height: 13px;">Декор: интересное<br
+/>и актуальное</span></font> </a></td>
+<td width="20%" align="center"><a
+href="http://postel-deluxe.ru/emark/link.php?M=14117098&N=9150&hash=0dac664f2619242082a7ae56dec5b00c&L=69662&F=H"
+target="_blank" style="text-decoration: none; line-height: 13px;"><img
+src="https://postel-deluxe.ru/media/wysiwyg/mail/mail_soc-bg.jpg"
+width="46" height="46" alt="Распродажа" /> <br /> <font
+face="Verdana, Tahoma, Arial" size="2" color="#4d4d4d" style="font-size:
+11px;"><span style="font-family: Verdana, Tahoma, Arial; font-size: 11px;
+color: #4d4d4d; line-height: 13px;">По-женски<br />о
+декоре</span></font> </a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="160" align="center" valign="middle" style="line-height:
+15px;"><hr color="#8f8f8f" width="700px" /><font face="Verdana, Tahoma,
+Arial" size="2" color="#626262" style="font-size: 11px;"> <span
+style="font-family: Verdana, Tahoma, Arial; font-size: 11px; color:
+#626262; line-height: 13px;"><br /> Вы получили это
+письмо, так как когда-то подписались на
+нашу рассылку<br />и являетесь членом
+клуба Postel-Deluxe.ru.<br /><br /> Чтобы
+гарантированно получать наши письма,
+пожалуйста, добавьте<br />наш адрес <b><a
+href="mailto:news@postel-deluxe.ru" style="text-decoration: none; color:
+#626262;" title="Добавьте этот адрес в список
+контактов">news@postel-deluxe.ru</a></b> в свой список
+контактов.<br /> Не знаете, как добавить
+адрес в список контактов? <a
+href="http://postel-deluxe.ru/emark/link.php?M=14117098&N=9150&hash=0dac664f2619242082a7ae56dec5b00c&L=70952&F=H"
+style="color: #72a700; font-size: 11px; line-height: 13px; font-family:
+Verdana, Tahoma, Arial;" title="Как добавить адрес в
+спи��ок контактов?">Читайте нашу
+инструкцию</a>. <br /><br /> Если вы больше не
+хотите получать от нас письма, просто <a
+href="http://postel-deluxe.ru/emark/unsubscribe.php?M=14117098&C=a553295a7f9f6696059b7c225dd29106&L=16&N=9150"
+style="color: #72a700; font-size: 11px; line-height: 13px; font-family:
+Verdana, Tahoma, Arial;" title="Отписаться от
+рассылки">отпишитесь</a>. <br /> Но мы будем
+скучать без Вас!</span></font></td>
+</tr>
+</tbody>
+</table>
+<!-- end mail content --></td>
+</tr>
+</tbody>
+</table>
+<!-- end mail bg --> <!-- space after mail -->
+<table cellpadding="0" cellspacing="0" border="0" style="height: 5px;">
+<tbody>
+<tr>
+<td style="padding-top: 0px; padding-bottom: 0; padding-left: 0;
+padding-right: 0; height: 5px; margin: 0;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- end space -->
+<img
+src="http://postel-deluxe.ru/emark/open.php?M=14117098&L=16&N=9150&F=H&image=.jpg"
+height="1" width="10"></body>
+    </html>
+
+--b1_d32f68a479bf8b7a2da86ebddc751aa8--
+
+
+
+-------rH5EeEHbIM1PTGPC-1590150653--
