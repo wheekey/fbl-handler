@@ -7,6 +7,7 @@ load_dotenv()
 class MessageIdExtractor():
 
     def extract_from_yandex_fbl(self, message_content: str) -> str:
+        print(123)
         search = re.search(".*" + os.getenv('fbl_pattern_yandex') + "\.ru>\\)\sid\s(.+?)\s.*", message_content,
                            flags=re.MULTILINE | re.UNICODE)
 
