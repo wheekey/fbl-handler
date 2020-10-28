@@ -11,12 +11,13 @@ class SSHConnector():
         sftpURL = os.getenv('sftp_url')
         sftpUser = os.getenv('sftp_user')
         sftpPass = os.getenv('sftp_pass')
+        sftpPort = int(os.getenv('sftp_port'))
 
         ssh = paramiko.SSHClient()
         # automatically add keys without requiring human intervention
         ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
-        ssh.connect(sftpURL, username=sftpUser, password=sftpPass, banner_timeout=200)
+        ssh.connect(sftpURL, username=sftpUser, password=sftpPass, banner_timeout=200, port=sftpPort)
 
         return ssh
 
